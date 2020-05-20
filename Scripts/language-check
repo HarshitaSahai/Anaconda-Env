@@ -1,0 +1,6 @@
+#!C:\Users\Harshita\anaconda3\envs\py37\python.exe
+
+import sys
+
+from language_check import main
+sys.exit(main.main())

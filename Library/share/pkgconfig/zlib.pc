@@ -1,0 +1,13 @@
+prefix=C:/Users/Harshita/anaconda3/envs/py37/Library
+exec_prefix=C:/Users/Harshita/anaconda3/envs/py37/Library
+libdir=C:/Users/Harshita/anaconda3/envs/py37/Library/lib
+sharedlibdir=C:/Users/Harshita/anaconda3/envs/py37/Library/lib
+includedir=C:/Users/Harshita/anaconda3/envs/py37/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
